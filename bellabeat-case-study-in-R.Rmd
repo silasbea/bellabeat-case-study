@@ -51,7 +51,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 
-daily_activity <- read_csv("/home/silas/Desktop/Bellabeat/dailyActivity_merged.csv")
+daily_activity <- read_csv("dailyActivity_merged.csv")
 head(daily_activity) 
 
 
@@ -94,7 +94,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 
-hourly_calories <- read_csv("/home/silas/Desktop/Bellabeat/hourlyCalories_merged.csv")
+hourly_calories <- read_csv("hourlyCalories_merged.csv")
 head(hourly_calories) #fetching first 6 rows
 anyNA(hourly_calories) #checking for missing values
 summary(hourly_calories)
@@ -128,7 +128,7 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 
-sleepday <- read_csv("/home/silas/Desktop/Bellabeat/sleepDay_merged.csv")
+sleepday <- read_csv("sleepDay_merged.csv")
 head(sleepday) 
 anyNA(sleepday) # retuns false -- No missing values
 
